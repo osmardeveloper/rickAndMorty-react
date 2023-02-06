@@ -1,0 +1,26 @@
+.App{
+    background-color: #062e33;
+}
+
+.App_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.App_title{
+    margin-top: 50px;
+    font-size: 60px;
+    color: rgb(200, 226, 211);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 5000;
+    text-align: center;
+}
+
+@media (max-width: 500px) {
+    .App_title{
+        font-size: 35px;
+    }
+
+}
